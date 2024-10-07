@@ -133,6 +133,8 @@ a.nav-link.active {
   font-size: 28px;
   font-weight: 700;
   line-height: 35.42px;
+  color: white;
+  text-decoration: none;
 }
 
 .img_part_img {
