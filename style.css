@@ -11,6 +11,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 body {
@@ -21,10 +22,13 @@ body {
   height: 80px;
   border-radius: 1000px;
   opacity: 0px;
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   background: #ffffff26;
 }
 .navbar_style {
+  -webkit-transition: background-color 0.5s ease;
+  -o-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
 }
 .img_log_style {
@@ -54,6 +58,7 @@ body {
   font-weight: 500;
   line-height: 22.77px;
   background-color: white;
+  -webkit-box-shadow: 1px 4px 16px 0px #0000001f;
   box-shadow: 1px 4px 16px 0px #0000001f;
 }
 .nav-item a {
@@ -92,6 +97,8 @@ a.nav-link.active {
   position: absolute;
   top: 60%;
   left: 135px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   color: white;
   text-align: left;
@@ -102,12 +109,17 @@ a.nav-link.active {
   height: 142px;
   gap: 0px;
   opacity: 0px;
+  -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   background: #00000080;
   margin-top: -139px;
 }
 .image_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 10px;
 }
@@ -135,8 +147,14 @@ a.nav-link.active {
   opacity: 0px;
 }
 .hero_section_contact_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 100%;
   color: white;
@@ -149,6 +167,8 @@ a.nav-link.active {
   left: 371px;
   border: 1px solid #ffffff;
   opacity: 1;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
 }
 
@@ -171,11 +191,19 @@ a.nav-link.active {
   margin-top: 40px;
 }
 .first_text_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 .first_image_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
   justify-content: flex-start;
   gap: 30px;
 }
@@ -190,8 +218,15 @@ a.nav-link.active {
   width: 100%;
 }
 .text_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 20px;
 }
@@ -235,8 +270,14 @@ a.nav-link.active {
   margin-bottom: 70px !important;
 }
 .help_bugdet_text_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .help_bugdet_right {
@@ -291,7 +332,9 @@ a.nav-link.active {
   .mobile_nav_style {
     border-radius: 10px;
     padding: 10px;
+    -webkit-box-shadow: 1px 4px 16px 0px #0000001f;
     box-shadow: 1px 4px 16px 0px #0000001f;
+    -webkit-backdrop-filter: blur(100px);
     backdrop-filter: blur(100px);
     background: #000000cf;
   }
@@ -307,6 +350,8 @@ a.nav-link.active {
     text-align: center;
   }
   .ml_style_button_m {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .hero-section {
@@ -320,16 +365,30 @@ a.nav-link.active {
     margin-top: 20px;
   }
   .first_text_card {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     gap: 10px;
     text-align: center;
     margin-bottom: 15px;
   }
   .first_image_card {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     gap: 10px;
     text-align: center;
@@ -396,7 +455,11 @@ a.nav-link.active {
     display: none;
   }
   section.help_bugdet_text_section.help_bugdet_margin {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
   }
   .help_bugdet_left {
