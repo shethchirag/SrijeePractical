@@ -258,6 +258,7 @@ a.nav-link.active {
   color: white;
 }
 
+/*-------------------------------------------------------------------------------------------------------------------*/
 /* XXL devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
   /* Custom CSS for XXL devices */
@@ -355,6 +356,11 @@ a.nav-link.active {
   }
   .help_bugdet_text_section {
     height: 385px;
+  }
+
+  .hero_section_contact {
+    height: 100px;
+    margin-top: -180px;
   }
 }
 
