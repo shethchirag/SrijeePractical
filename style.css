@@ -1605,4 +1605,7 @@ ul.navbar-nav.ml-auto.m-auto.mb-3.mt-3.mb-lg-0.mobile_view_style {
     font-weight: 400;
     line-height: 20px;
   }
+  .button_style {
+    font-size: 13px;
+  }
 }
