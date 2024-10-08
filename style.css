@@ -60,6 +60,7 @@ body {
   background-color: white;
   -webkit-box-shadow: 1px 4px 16px 0px #0000001f;
   box-shadow: 1px 4px 16px 0px #0000001f;
+  border: 0;
 }
 .nav-item a {
   font-size: 18px;
